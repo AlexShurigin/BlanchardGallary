@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.js-focus-visible :focus:not(.focus-visible) {
+/* .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -28,7 +28,7 @@ a {
   outline: transparent;
 }
 
-.focus-style:focus {
+/* .focus-style:focus {
   background: var(--outline-color);
   color: var(--white-color)
 }
@@ -36,7 +36,7 @@ a {
 .focus-style:active {
   background: transparent;
   color: var(--outline-color)
-}
+} */
 
 
 
