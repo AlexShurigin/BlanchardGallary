@@ -5,41 +5,143 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blanchard - Художественная галерея</title>
+  <title>Blanchard - художественная галерея</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="container header__container">
-      <div class="heder__top_container">
-        <a href="#" class="logo"></a>
-        <nav class="header__top_nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#" class="nav__link">О нас</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Галерея</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Каталог</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">События</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Проекты</a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button header__button">Войти</button>
+  <div class="site-container">
+    <header class="header">
+      <div class="header-top">
+        <div class="container header-top__container flex">
+          <a href="#" class="header__logo logo">
+            <img src="img/1920/Лого.png" alt="Логотип Blanchard" class="header__logo">
+          </a>
+          <nav class="header-top__menu">
+            <ul class="header-top__menu__list flex">
+              <li class="header-top__menu__item">
+                <a href="" class="header-top__menu__link">О нас</a>
+              </li>
+              <li class="header-top__menu__item">
+                <a href="" class="header-top__menu__link">Галерея</a>
+              </li>
+              <li class="header-top__menu__item">
+                <a href="" class="header-top__menu__link">Каталог</a>
+              </li>
+              <li class="header-top__menu__item">
+                <a href="" class="header-top__menu__link">События</a>
+              </li>
+              <li class="header-top__menu__item">
+                <a href="" class="header-top__menu__link">Проекты</a>
+              </li>
+              <li class="header-top__menu__item">
+                <a href="" class="header-top__menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__button button_reset">
+            <div class="sign-in">
+              <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z"
+                  fill="white" />
+              </svg>
+            </div>
+            Войти
+          </button>
+        </div>
       </div>
-    </div>
+      <div class="header-bottom">
+        <div class="container header-bottom__container flex">
+          <nav class="header-bottom__menu">
+            <ul class="header-bottom__menu__list flex">
+              <li class="header-bottom__menu__item">
+                <select name="select">
+                  <option value="">Тинторетто</option>
+                  <option value="">Фридрих</option>
+                  <option value="">Леонардо</option>
+                  <option value="">Вероккьо</option>
+                </select>
+              </li>
+              <li class="header-bottom__menu__item">
+                <select name="select">
+                  <option value="">Моне</option>
+                  <option value="">Сислей</option>
+                  <option value="">Мане</option>
+                  <option value="">Ренуар</option>
+                </select>
+              </li>
+              <li class="header-bottom__menu__item">
+                <select name="select">
+                  <option value="">Ван Гог</option>
+                  <option value="">Сезанн</option>
+                  <option value="">Гоген</option>
+                  <option value="">Сёра</option>
+                </select>
+              </li>
+              <li class="header-bottom__menu__item">
+                <select name="select">
+                  <option value="">Кандинский</option>
+                  <option value="">Маринетти</option>
+                  <option value="">Малевич</option>
+                  <option value="">Пикассо</option>
+                </select>
+              </li>
+              <li class="header-bottom__menu__item">
+                <select name="select">
+                  <option value="">Карра</option>
+                  <option value="">Прателла</option>
+                  <option value="">Северини</option>
+                  <option value="">Балла</option>
+                </select>
+              </li>
+            </ul>
+          </nav>
+          <form class="search">
+            <button class="search__button button_reset">
+              <svg width="23" height="22" viewbox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="6.8678" height="1.71695"
+                  transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z"
+                  fill="white" />
+              </svg>
+            </button>
+            <input class="search__input" type="search" placeholder="Поиск по сайту">
+          </form>
+        </div>
+      </div>
+    </header>
 
-  </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="h1">Blanchard - художественная галерея</h1>
+          <p class="hero__title">Прикоснитесь к прекрасному</p>
+          <p class="hero__subtitle">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий
+            создаёт предпосылки для новых предложений.</p>
+          <button class="hero__button button_reset">Подписаться на рассылку</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about__container">
+          <h2 class="about__h2">
+            О нас
+          </h2>
+          <p class="about__content">Ясность нашей позиции очевидна: семантический разбор внешних противодействий
+            однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения
+            внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип будущего
+            проекта влечет за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает,
+            что высокое качество позиционных исследований создаёт необходимость включения в производственный план целого
+            ряда внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках
+            спецификации современных стандартов, действия представителей оппозиции набирают популярность среди
+            определенных слоев населения, а значит, должны быть разоблачены.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="libs/choices.js"> </script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

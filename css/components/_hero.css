@@ -1,0 +1,45 @@
+.hero {
+  padding-top: 241px;
+  min-height: 800px;
+  background-image: url(/img/1920/hero1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.hero__title {
+  max-width: 36%;
+  margin-bottom: 20px;
+  padding-left: 2px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 83px;
+  color: var(--white-color);
+}
+
+.hero__subtitle {
+  margin-bottom: 91px;
+  max-width: 38%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--white-color);
+}
+
+.hero__button {
+  padding: 22px 37px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--white-color);
+  background-color: var(--lilac-color);
+}

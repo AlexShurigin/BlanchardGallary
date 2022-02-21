@@ -1,0 +1,20 @@
+.about__container {
+  padding-top: 85px;
+  padding-bottom: 80px;
+}
+
+.about__h2 {
+  margin-bottom: 22px;
+  padding-left: 1px;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--dark-color);
+}
+
+.about__content {
+  max-width: 67.9%;
+  padding-left: 1px;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--dark-color);
+}
